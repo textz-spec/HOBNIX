@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+
+body {
+        background-image: linear-gradient( 90deg, rgba(24, 24, 22, 0.698),
+        rgba(228, 231, 62, 0.433));
+}
+
+/*Midea queries*/ 
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+
+body {
+   
+
+     .p1 {
+    font-size: 13px;
+    text-align: left;
+    margin: 7% 1% 3% 1%;
+    padding: 2% 1% 6% 1%;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    word-spacing: 7px;
+      box-shadow: 7px 50px 50px   gray,  10px 10px 50px inset  rgb(255, 225, 0), -1px -1px 8px   rgb(255, 225, 0);;
+    background-color: rgba(255, 136, 17, 0.409); width: 305px; height: 300px;
+    }
+
+    .img-p1 {
+    float: right;
+   margin: 1% 1% 1% 1%;
+    width: 40%; height: 375px;
+    }
+
+    .p2 {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 15% 1% 8%;
+    font-size: 13px;
+    word-spacing: 7px;
+    border: 5px dotted yellow;
+    width: 80%;
+}
+
+.p2:hover {
+    box-shadow: 5px 5px 5px inset goldenrod,  -5px -5px 5px inset goldenrod;
+    background-color: rgba(255, 255, 0, 0.199);
+    opacity: 0.7;
+}
+
+.p2-title {
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+    text-shadow: 1px 1px 1px #ffff00;
+    text-transform: uppercase;
+    margin: 2% 0%;
+}
+
+.title-hobix {
+    text-align: center;
+    margin: 4% 1% 4% 4% ;
+    font-family: "Roboto Flex", sans-serif;
+    background: #ffff00;
+    box-shadow: 0px 0px 1px 5px  black;
+    display: inline-block;
+    
+}
+
+.hobix-calistenia:hover   {
+  
+    background-color: white;
+    width: 80%;   height: auto;
+    margin: 4% 1% -10% 8%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+ 
+.hobix-leitura:hover {
+    background-color: white;
+    width: 60%;   height: auto;
+    margin: -49% 1% 0% 35%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+
+   
+}
+
+
+.hobix-esportes:hover {
+    background-color: white;
+    width: 80%;   height: auto;
+    margin: 4% 1% 1% 10%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix-t_estrum:hover {
+    background-color: white;
+    width: 80%;   height: auto;
+    margin: 4% 1% 1% 10%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix-xadrez:hover {
+    background-color: white;
+    width: 50%;   height: auto;
+    margin: 4% 1% 1% 10%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix-luta:hover {
+    background-color: white;
+    width: 50%;   height: auto;
+    margin: 4% 1% 1% -30%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+}
+
+
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {
+
+body {
+   
+
+    .title-hobix {
+    text-align: center;
+    margin: 4% 1% 4% 1% ;
+    font-family: "Roboto Flex", sans-serif;
+    background: #ffff00;
+    box-shadow: 0px 0px 1px 5px  black;
+    display: block;
+    
+}
+
+    .p1 {
+    font-size: 14px;
+    text-align: left;
+    margin: 6% 1% 6% 1%;
+    padding: 2% 1% 4% 1%;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    word-spacing: 7px;
+      box-shadow: 7px 50px 50px   gray,  10px 10px 50px inset  rgb(255, 225, 0), -1px -1px 8px   rgb(255, 225, 0);;
+    background-color: rgba(255, 136, 17, 0.409); width: 320px; height: 350px;
+    }
+
+    .img-p1 {
+    float: right;
+   margin: 1% 1% 1% 1%;
+    width: 40%; height: 425px;
+    }
+
+    .p2 {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 15% 1% 8%;
+    font-size: 14px;
+    word-spacing: 7px;
+    border: 5px dotted yellow;
+    width: 80%;
+}
+
+.p2:hover {
+    box-shadow: 5px 5px 5px inset goldenrod,  -5px -5px 5px inset goldenrod;
+    background-color: rgba(255, 255, 0, 0.199);
+    opacity: 0.7;
+}
+
+}
+
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {
+
+body {
+   
+
+     .p2 {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 15% 1% 8%;
+    font-size: 17px;
+    word-spacing: 7px;
+    border: 5px dotted yellow;
+    width: 80%;
+}
+
+ .img-p1 {
+    float: right;
+   margin: 1% 1% 1% 1%;
+    width: 40%; height: 500px;
+    }
+
+.p1 {
+    font-size: 17px;
+    text-align: left;
+    margin: 6% 1% 6% 1%;
+    padding: 2% 1% 3% 1%;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    word-spacing: 7px;
+      box-shadow: 7px 50px 50px   gray,  10px 10px 50px inset  rgb(255, 225, 0), -1px -1px 8px   rgb(255, 225, 0);;
+    background-color: rgba(255, 136, 17, 0.409); width: 400px; height: 420px;
+}
+
+}
+
+}
+
+@media only screen and (min-width: 970px) {
+
+    body {
+  
+     .p2 {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 15% 1% 8%;
+    font-size: 18px;
+    word-spacing: 7px;
+    border: 5px dotted yellow;
+    width: 80%; }
+    .p1 {
+    font-size: 18px;
+    text-align: left;
+    margin: 5% 1% 3% 1%;
+    padding: 2% 1% 5% 1%;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    word-spacing: 7px;
+      box-shadow: 7px 50px 50px   gray,  10px 10px 50px inset  rgb(255, 225, 0), -1px -1px 8px   rgb(255, 225, 0);;
+    background-color: rgba(255, 136, 17, 0.409); width: 500px; height: 365px;
+    }
+
+}
+
+}
+
+
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {
+
+body {
+   
+
+
+     .p2 {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 15% 1% 8%;
+    font-size: 18px;
+    word-spacing: 7px;
+    border: 5px dotted yellow;
+    width: 80%; }
+
+    .p1 {
+    font-size: 18px;
+    text-align: left;
+    margin: 5% 1% 3% 1%;
+    padding: 2% 1% 3% 1%;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    word-spacing: 7px;
+      box-shadow: 7px 50px 50px   gray,  10px 10px 50px inset  rgb(255, 225, 0), -1px -1px 8px   rgb(255, 225, 0);;
+    background-color: rgba(255, 136, 17, 0.409); width: 500px; height: 370px;
+    }
+
+}
+
+
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px)
+
+{
+
+body {
+   
+    
+    
+     .p2 {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 15% 1% 8%;
+    font-size: 20px;
+    word-spacing: 7px;
+    border: 5px dotted yellow;
+    width: 80%; }
+    
+    .p1 {
+    font-size: 20px;
+    text-align: left;
+    margin: 4% 1% 3% 1%;
+    padding: 2% 1% 5% 1%;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    word-spacing: 7px;
+      box-shadow: 7px 50px 50px   gray,  10px 10px 50px inset  rgb(255, 225, 0), -1px -1px 8px   rgb(255, 225, 0);;
+    background-color: rgba(255, 136, 17, 0.409); width: 560px; height: 365px;
+    }
+
+}
+
+}
+
+
+
+
+
+
+
+hr {
+  clear: both;
+  border: none;      
+  height: 2px;          
+  background-color: rgb(255, 227, 18);;
+}
+
+
+
+
+.p1-title {
+        text-align: center;
+        border: 2px dashed ;
+        font-family: "Roboto Flex", sans-serif;
+        background-color: rgb(255, 227, 18);
+        text-transform: uppercase;
+      
+}
+
+.p1 {
+    font-size: 20px;
+    text-align: left;
+    margin: 3% 1% 1% 1%;
+    padding: 3% 1% 2% 1%;
+    text-transform: capitalize;
+    font-family: "Roboto Flex", sans-serif;
+    word-spacing: 7px;
+      box-shadow: 7px 50px 50px   gray,  10px 10px 50px inset  rgb(255, 225, 0), -1px -1px 8px   rgb(255, 225, 0);;
+    background-color: rgba(255, 136, 17, 0.409); width: 650px; height: 350px;
+}
+
+
+
+.img-p1 {
+    float: right;
+   margin: 0% 1% 1% 1%;
+    width: 40%; height: 500px;
+}
+
+
+.p2-title {
+    text-align: center;
+    font-family: "Roboto Flex", sans-serif;
+    text-shadow: 1px 1px 1px #ffff00;
+    text-transform: uppercase;
+    margin: 2% 4%;
+}
+
+.p2 {
+    text-align: center;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 15% 1% 12%;
+    font-size: 20px;
+    word-spacing: 7px;
+    border: 5px dotted yellow;
+}
+
+.p2:hover {
+    box-shadow: 5px 5px 5px inset goldenrod,  -5px -5px 5px inset goldenrod;
+    background-color: rgba(255, 255, 0, 0.199);
+    opacity: 0.7;
+}
+
+
+
+.title-hobix {
+    margin: 4% 4% 4% 25% ;
+    font-family: "Roboto Flex", sans-serif;
+    background: #ffff00;
+    box-shadow: 0px 0px 1px 5px  black;
+    display: inline-block;
+    
+}
+
+/* Hobix */
+
+.hobix-calistenia {
+    background-color: white;
+    width: 25%;   height: auto;
+    margin: 4% 1% 1% 5%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix-calis_img {
+    width: 100%; height: 200px;
+   
+}
+
+.calis_title {
+    font-size: 25px;
+    margin: 3% 1% ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hobix-calistenia:hover .calis_title  {
+  white-space: normal;
+ 
+}
+
+.hobix-calistenia:hover .calis_p1 {
+     white-space: normal;
+}
+
+.calis_p1 {
+    padding: 1% 1% 5%;
+    margin: 10% 1% 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+
+
+/* Leitura */
+
+.hobix-leitura {
+    background-color: white;
+    width: 25%;   height: auto;
+    margin: 4% 1% 1% 5%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix-leitura_img {
+    width: 100%; height: 200px;
+   
+}
+
+.hobix-leitura-title {
+    font-size: 25px;
+    margin: 3% 1% ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.leitura_p1 {
+    padding: 1% 1% 5%;
+    margin: 10% 1% 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    text-transform: capitalize;
+}
+
+.hobix-leitura:hover .hobix-leitura-title  {
+  white-space: normal;
+ 
+}
+
+.hobix-leitura:hover .leitura_p1 {
+     white-space: normal;
+}
+
+/* Esportes */
+
+
+.hobix-esportes {
+    background-color: white;
+    width: 25%;   height: auto;
+    margin: 4% 1% 1% 5%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix_esportes-img {
+    width: 100%; height: 200px;
+   
+}
+
+.hobix-esportes-title {
+    font-size: 25px;
+    margin: 3% 1% ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.esportes_p1 {
+    padding: 1% 1% 5%;
+    margin: 10% 1% 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    text-transform: capitalize;
+}
+
+.hobix-esportes:hover .hobix-esportes-title  {
+  white-space: normal;
+ 
+}
+
+.hobix-esportes:hover .esportes_p1 {
+     white-space: normal;
+}
+
+
+/* Tocar um instrumento musical */
+
+.hobix-t_estrum {
+    background-color: white;
+    width: 25%;   height: auto;
+    margin: 4% 1% 1% 5%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+
+.hobix_t_estrum-img {
+    width: 100%; height: 200px;
+   
+}
+
+.hobix-t_estrum-title {
+    font-size: 25px;
+    margin: 3% 1% ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.tocarp1 {
+    padding: 1% 1% 5%;
+    margin: 10% 1% 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    text-transform: capitalize;
+}
+
+.hobix-t_estrum:hover .hobix-t_estrum-title {
+  white-space: normal;
+ 
+}
+
+.hobix-t_estrum:hover .tocarp1 {
+     white-space: normal;
+}
+
+/* xadrez/dama */
+
+.hobix-xadrez {
+    background-color: white;
+    width: 25%;   height: auto;
+    margin: 4% 1% 1% 5%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix_xadrez-img {
+    width: 100%; height: 200px;
+   
+}
+
+.hobix-xadrez-title {
+    font-size: 25px;
+    margin: 3% 1% ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.xadrez_p1 {
+    padding: 1% 1% 5%;
+    margin: 10% 1% 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    text-transform: capitalize;
+}
+
+.hobix-xadrez:hover .hobix-xadrez-title  {
+  white-space: normal;
+ 
+}
+
+.hobix-xadrez:hover .xadrez_p1 {
+     white-space: normal;
+}
+
+
+/* Artes marciais */
+
+.hobix-luta {
+    background-color: white;
+    width: 25%;   height: auto;
+    margin: 4% 1% 1% 5%;
+    border-radius: 8px;
+    display: inline-block;
+    
+}
+
+.hobix_luta-img {
+    width: 100%; height: 200px;
+   
+}
+
+.hobix-luta-title {
+    font-size: 25px;
+    margin: 3% 1% ;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.luta_p1 {
+    padding: 1% 1% 5%;
+    margin: 10% 1% 0%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; 
+    text-transform: capitalize;
+}
+
+.hobix-luta:hover .hobix-luta-title  {
+  white-space: normal;
+ 
+}
+
+.hobix-luta:hover .luta_p1 {
+     white-space: normal;
+}
